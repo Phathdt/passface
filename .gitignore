@@ -45,7 +45,8 @@ next-env.d.ts
 .claude_sessions/
 plans/
 
-/src/generated/prisma
+# Prisma generates to node_modules/.prisma by default
+# (already ignored by node_modules)
 
 # database
 prisma/*.db
