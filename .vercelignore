@@ -1,0 +1,36 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.*
+
+# Testing
+coverage
+
+# Build
+.next
+out
+build
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Misc
+.DS_Store
+*.pem
+
+# Local development
+.claude_sessions/
+plans/
+prisma/*.db
+prisma/*.db-journal
+
+# Generated
+src/generated/
