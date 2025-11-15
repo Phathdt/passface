@@ -32,5 +32,4 @@ plans/
 prisma/*.db
 prisma/*.db-journal
 
-# Generated
-src/generated/
+# Note: src/generated/ is NOT ignored - Vercel needs Prisma Client binaries
